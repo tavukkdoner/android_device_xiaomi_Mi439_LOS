@@ -99,6 +99,7 @@ endif
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/xiaomi_sdm439_touchscreen/enable_dt2w"
 
 # Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
